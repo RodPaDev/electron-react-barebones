@@ -69,14 +69,14 @@ app.on('ready', async () => {
   }
 
   mainWindow = new BrowserWindow({
-    show: false,
-    width: 1024,
-    height: 728,
+    // Resize window
+    // width: 1024,
+    // height: 728,
     webPreferences: {
       nodeIntegration: true
     }
   });
-
+  mainWindow.maximize() // Disable if you don't want it to go windowed fullscreen
   mainWindow.loadURL(`file://${__dirname}/app.html`);
 
   // @TODO: Use 'ready-to-show' event
@@ -101,6 +101,5 @@ app.on('ready', async () => {
   menuBuilder.buildMenu();
 
   // Remove this if your app does not use auto updates
-  // eslint-disable-next-line
   new AppUpdater();
 });
