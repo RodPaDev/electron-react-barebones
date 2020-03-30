@@ -74,11 +74,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodpadev/electron-react-barebones.git"
+    "url": "git+https://github.com/RodPaDev/electron-react-barebones.git"
   },
   "author": {
     "name": "Patrick Rodrigues",
-    "url": "https://github.com/rodpadev/electron-react-barebones.git"
+    "url": "https://github.com/RodPaDev/"
   },
   "contributors": [
     {
@@ -100,7 +100,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rodpadev/electron-react-barebones/issues"
+    "url": "https://github.com/RodPaDev/electron-react-barebones/issues"
   },
   "keywords": [
     "electron",
@@ -110,7 +110,7 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/rodpadev/electron-react-barebones#readme",
+  "homepage": "https://github.com/RodPaDev/electron-react-barebones#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
