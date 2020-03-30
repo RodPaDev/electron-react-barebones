@@ -23,7 +23,7 @@ yarn
 ```
 redux
 jest
-rass
+sass
 eslint or lint
 react-router
 ```
