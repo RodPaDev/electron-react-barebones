@@ -2,7 +2,7 @@
   "name": "electron-react-barebones",
   "productName": "ElectronReactBarebones",
   "version": "0.17.1",
-  "description": "A barebones electron react app with hot-reloading, great for playing around!",
+  "description": "A barebones electron react boilerplate with hot-reloading, great for playing around!",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development webpack --config ./configs/webpack.config.renderer.dev.dll.babel.js --colors",
