@@ -44,8 +44,8 @@ There might be some lingering packages and webpack configurations left over, if 
 **This boilerplate works with `npm` or `yarn` but uses `yarn` internally**
 
 ```
-git clone --depth 1 --single-branch --branch master https://github.com/rodpadev/create-electron-react-barebones.git your-project-name
-cd your-project-name
+git clone --depth 1 --single-branch --branch master https://github.com/rodpadev/electron-react-barebones.git your-app-name
+cd your-app-name
 npm install
 ```
 
