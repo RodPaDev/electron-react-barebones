@@ -195,7 +195,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
-    "source-map-support": "^0.5.16"
+    "source-map-support": "^0.5.16",
+    "styled-components": "^5.0.1"
   },
   "devEngines": {
     "node": ">=7.x",
