@@ -2,7 +2,7 @@
 
 A stripped down version of [react-boiler-plate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
 
-![Alt text](/docs/demo.gif)
+<img src="./docs/demo.gif" alt="" width="100%"/>
 
 # What's included?
 ```
