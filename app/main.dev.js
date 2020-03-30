@@ -41,6 +41,7 @@ const installExtensions = async () => {
   const installer = require('electron-devtools-installer');
   const forceDownload = !!process.env.UPGRADE_EXTENSIONS;
   const extensions = ['REACT_DEVELOPER_TOOLS'];
+  require('devtron').install()
 
   return Promise.all(
     extensions.map(name => installer.default(installer[name], forceDownload))
@@ -65,7 +66,6 @@ app.on('ready', async () => {
     process.env.DEBUG_PROD === 'true'
   ) {
     await installExtensions();
-    require('devtron').install()
   }
 
   mainWindow = new BrowserWindow({
