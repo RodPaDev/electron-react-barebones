@@ -170,7 +170,6 @@
     "react-hot-loader": "^4.12.20",
     "react-test-renderer": "^16.13.1",
     "rimraf": "^2.6.3",
-    "sass-loader": "^7.1.0",
     "sinon": "^7.3.1",
     "spectron": "^5.0.0",
     "style-loader": "^0.23.1",
@@ -194,8 +193,7 @@
     "history": "^4.9.0",
     "react": "^16.13.0",
     "react-dom": "npm:@hot-loader/react-dom",
-    "source-map-support": "^0.5.16",
-    "styled-components": "^5.0.1"
+    "source-map-support": "^0.5.16"
   },
   "devEngines": {
     "node": ">=7.x",
