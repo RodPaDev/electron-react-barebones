@@ -46,21 +46,21 @@ There might be some lingering packages and webpack configurations left over, if 
 ```
 git clone --depth 1 --single-branch --branch master https://github.com/rodpadev/create-electron-react-barebones.git your-project-name
 cd your-project-name
-yarn
+npm install
 ```
 
 # How to run?
 
 ```
 yarn dev -- App in development mode with [HMR]
-yarn start -- App in production mode no [HMR]
+npm start -- App in production mode no [HMR]
 ```
 # How to pack?
 
 This uses electron-builder, for more information on how to configure [visit the docs.](https://www.electron.build/)
 
 ```
-yarn package -- Package app for local platform
+npm run package -- Package app for local platform
 ```
 
 # Want to help me?
