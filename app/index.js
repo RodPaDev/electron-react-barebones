@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import { render } from 'react-dom';
 import { AppContainer as ReactHotAppContainer } from 'react-hot-loader';
-import App from './components/App';
+import Root from './components/Root';
 import './app.global.css';
 
 const AppContainer = process.env.PLAIN_HMR ? Fragment : ReactHotAppContainer;
 
 render(
   <AppContainer>
-    <App />
+    <Root />
   </AppContainer>,
   document.getElementById('root')
 );
