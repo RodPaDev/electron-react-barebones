@@ -95,7 +95,6 @@
       "name": "Patrick Rodrigues",
       "email": "rodpadev@rodriguespatrick.com",
       "url": "https://github.com/rodpadev"
-
     }
   ],
   "license": "MIT",
@@ -178,7 +177,7 @@
     "electron-updater": "^4.2.5",
     "history": "^4.9.0",
     "react": "^16.13.0",
-    "react-dom": "npm:@hot-loader/react-dom",
+    "react-dom": "npm:@hot-loader/react-dom@^16.13.0",
     "source-map-support": "^0.5.16"
   },
   "devEngines": {
