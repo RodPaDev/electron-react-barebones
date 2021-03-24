@@ -10,7 +10,7 @@ function Root() {
     <>
     <div className={styles.main_div}>
 
-      <h1>Electron React Barebones</h1>
+      <h1>Electron React Bareboy</h1>
 
       <img src={bones} atl="" id={styles.bones} />
 

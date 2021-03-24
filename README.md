@@ -1,3 +1,6 @@
+# This is currently broken and will not be fixed in the near future, if you need a boilerplate I highly recommend [react-boiler-plate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
+
+----
 # Electron React Barebones
 
 A stripped down version of [react-boiler-plate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
