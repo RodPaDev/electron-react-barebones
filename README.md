@@ -1,4 +1,4 @@
-# This is currently broken and will not be fixed in the near future, if you need a boilerplate I highly recommend [react-boiler-plate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
+# This is currently broken and will not be fixed, if you need a boilerplate I highly recommend [react-boiler-plate](https://github.com/electron-react-boilerplate/electron-react-boilerplate) or try [electron-forge](https://github.com/electron-userland/electron-forge)
 
 ----
 # Electron React Barebones
